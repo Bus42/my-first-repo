@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <a href='contact.html' class="active">Contact</a>
+        <a href='portfolio.html'>Portfolio</a>
+        <a href="index.html">Home</a>
+    </nav>
+    <main>
+        <h1>Contact Me</h1>
+        <br/>
+        <div id="formDiv">
+            <form action="https://formspree.io/gbrewton1980@gmail.com" method="POST">
+                <label for="name">Name</label>
+                <input type="text" name="name" required placeholder="Required">
+                <br/>
+                <label for="_replyto">Email</label>
+                <input type="email" name="_replyto" required placeholder="Required">
+                <br/>
+                <label for="content"><h2>Questions or comments</h2></label><br/>
+                <textarea name="content" id="contactContent" cols="60" rows="15" placeholder="Type your comments or questions in here" required></textarea><br/>
+                <input type="submit" value="Send" id="submit">
+            </form>
+        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <td><a href="http://www.facebook.com/gwbrewton">Facebook</a></td>
+                    <td><a href="https://github.com/Bus42">GitHub</a></td>
+                    <td><a href="https://twitter.com/Bus42a">Twitter</a></td>
+                    <td><a href="https://www.freecodecamp.com/bus42">FreeCodeCamp</a></td>
+                    <td><a href="https://medium.com/@gbrewton1980">Medium</a></td>
+                    <td><a href="linkedin.com/in/greg-brewton-868b8541">LinkedIn</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="mailto:gbrewton1980@gmail.com" id="mailto">Greg Brewton/Studio42Dev</a>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+
+</html>

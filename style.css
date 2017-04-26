@@ -1,0 +1,163 @@
+body {
+  background-color: #68B159;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+nav {
+  height: 36px;
+  width: 100%;
+  background-color: #246B61;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+nav > a {
+  padding: 8px 16px;
+  background-color: #0D5047;
+  color: white;
+  text-decoration: none;
+  float: right;
+  height: 20px;
+}
+nav > a.active {
+    background-color: #00352E;
+}
+nav > a:hover {
+    background-color: #00352E;
+}
+#profilePic {
+    height: 250px;
+    margin: 40px auto 0;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+main#home {
+    z-index: 1;
+    position: absolute;
+    top: 260px;
+}
+main {
+  margin-top: 40px;
+  height: 100%;
+}
+footer {
+  position: fixed;
+  height: 36px;
+  width: 100%;
+  bottom: 0px;
+  background-color: #246B61;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  clear: both;
+}
+footer > a {
+  padding: 8px 16px;
+  background-color: #0D5047;
+  color: white;
+  text-decoration: none;
+  height: 20px;
+}
+footer > a:hover {
+    background-color: #00352E;
+}
+p {
+  text-indent: 1em;
+  margin: 0 5em;
+}
+ul {
+  list-style-type: none;
+}
+form {
+  width: 25%;
+  margin: 1em 37.5% 2em;
+  text-align: center;
+}
+form {
+  background-color: #6BA099;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 1px 1px black;
+}
+input {
+  border-radius: 3px;
+  margin: .5em 0;
+}
+textarea {
+  border-radius: 8px;
+  margin-bottom: 1em;
+  margin-left: -90.5px;
+  background-color: #9AD58E;
+  box-shadow: 1px 1px black;
+}
+#playground {/*textarea on portfolio page*/
+    margin-left: 25px;
+}
+table {
+  width: 100%;
+  border: 3px solid #00352E;
+  background-color: #6BA099;
+}
+table a {
+  text-decoration: none;
+  margin: 0 0.5em;
+  color: black;
+  font-weight: bold;
+}
+td {
+  text-align: center;
+}
+#mailto {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px;
+  color: white;
+  background-color: #0D5047;
+  border: 2px solid #00352E;
+}
+.portfolioList {
+    width: 90vw;
+    margin: 1em 5vw;
+    padding: 0;
+}
+.portfolioList > li {
+    border: 1px solid gray;
+    border-radius: 8px;
+    width: 100%;
+}
+#playgroundButton {
+    margin: 0 25px 25px;
+}
+#resultDiv {
+    display: none;
+    position: fixed;
+    height: 300px;
+    width: 500px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    z-index: 10;
+}
+#dismiss {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
